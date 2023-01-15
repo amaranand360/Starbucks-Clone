@@ -1,0 +1,558 @@
+body{
+    margin: 0;
+    font-family: 'Helvetica','Arial','sans-serif';
+    font-weight: 400;
+    color: rgba(0,0,0,87);
+}
+
+header{
+    height : 101px;
+    box-shadow: 0 1px 3px rgb(0 0 0 /10%),0 2px 2px rgb(0 0 0 /6%), 0 0 2px rgb(0 0 0 /7%);
+}
+
+.header-container{
+        display: flex;
+        justify-content: space-between;
+         max-width: 1440px;
+         margin: 0 auto;
+         height: 100%;
+         /* background-color: brown; */
+         box-shadow: 0 1px 3px rgb(0 0 0 /10%),0 2px 2px rgb(0 0 0 /6%), 0 0 2px rgb(0 0 0 /7%);
+}
+
+.logo {
+    height:51px;
+    width :51px;
+}
+
+.logo img {
+    height:100%;
+    margin-left: 25px;
+}
+
+.left-nav {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    /* background-color: aquamarine; */
+    margin-left: 15px;
+}
+
+.left-nav nav ul {
+    list-style-type: none;
+    margin: 35px;
+    padding: 0;
+    display: flex;
+}
+
+.left-nav nav ul li {
+    text-transform: uppercase;
+    padding-left: 27px;
+    font-size: 15px;
+    font-weight:bolder;
+    letter-spacing: 0;
+    cursor: pointer;
+}
+
+.left-nav nav ul li:hover {
+    color: #008248;
+    transition: 0.3s all ease;
+
+}
+
+.right-nav{
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+}
+
+.right-nav div  {
+    text-transform: uppercase;
+    /* padding-right: 24px; */
+    margin-right: 30px;
+    font-weight:bolder;
+    line-height: 1.2;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+
+
+.bb{
+    border: 1px solid black;
+    padding: 9px 12px;
+    border-radius: 50px;
+    margin-right:10px ;
+    color: black;
+}
+
+.join-now-hov:hover{
+    background-color: rgba(31, 30, 30, 0.82);
+    transition: 0.3s all ease;
+}
+.sign-in-hov:hover{
+    background-color: #eef7f4e7;
+    transition: 0.3s all ease;
+}
+
+.bblack{
+    background-color: black;
+    color: white;
+}
+
+
+.find-store{
+    margin-right: 30px;
+    padding: 10px 18px;
+}
+.find-store:hover{
+    color: #008248;
+}
+
+.find-store svg{
+    font-size: 20px;
+}
+
+/* =====================================HERO SECTION========================================================== */
+
+
+#hero{
+    background-color: #d4e9e2;
+    display: flex;
+    margin: 0 0 30px 0;
+}
+
+.hero-img{
+    width: 50%;
+}
+
+.hero-img img{
+    width: 100%;
+}
+
+.hero-txt{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: #1e3932;
+}
+
+.hero-txt h1{
+    font-weight: 700;
+    font-size: 49px;
+    letter-spacing: 3px;
+    text-align: center;
+    margin: 0 108px;
+    line-height: 63px;
+    margin-bottom: 30px;
+
+
+}
+
+.hero-txt p{
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    margin: 0 100px;
+    margin-bottom: 30px;
+    line-height: 36px;
+
+}
+
+.hero-txt .bb{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px 16px;
+    color: #1e3932;
+    cursor: pointer;
+}
+
+.hero-txt .bb:hover{
+    background-color: rgba(30,57,50,.1);
+    /* background-color: rgb(206, 216, 216); */
+    transition: 0.3s all ease;
+}
+
+/* =====================================HERO2 SECTION========================================================== */
+
+#hero2{
+    background-color: #006241;
+    display: flex;
+    margin-bottom: 30px;
+}
+.hero2img{
+    width: 50%;
+}
+
+.hero2img img{
+    width: 100%;
+}
+
+.hero-2text {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color:white;
+}
+
+.hero-2text h1{
+    font-weight: 600;
+    font-size: 50px;
+    letter-spacing: 2px;
+    text-align: center;
+    margin:10px 108px 30px 108px;
+    line-height: 55px;   
+}
+    
+.hero-2text p{
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+    margin: 0 100px;
+    margin-bottom: 36px;
+    line-height:34px;
+
+}
+
+.hero-2text .bb{
+    font-size: 16px;
+    font-weight: 700;
+    padding: 5px 20px;
+    color: #fff;
+    border-radius:100px ;
+    border-color:#fff;
+    cursor: pointer;
+    
+}
+
+.hero-2text .bb:hover{
+    background-color: hsla(0,0%,100%,.12);
+    transition: 0.3s all ease;
+}
+
+
+/* =====================================HERO3 SECTION========================================================== */
+#hero3{
+    background-color: #d4e9e2;
+    margin: 30px 0;
+    display: flex;
+    height: inherit;
+    
+}
+.hero3img{
+    width: 50%;
+}
+.hero3img img{
+    width: 100%;
+}
+
+.hero3-txt {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: #1e3932;
+    
+}
+
+.hero3-txt h1{
+    font-weight: 600;
+    font-size: 24px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin:10px 108px 20px 108px;
+    line-height: 50px;   
+}
+
+.hero3-txt p{
+    font-size: 21px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0 100px;
+    margin-bottom: 30px;
+    line-height:35px;
+
+}
+
+.hero3-txt .bb{
+    font-size: 16px;
+    font-weight: 700;
+    padding: 5px 20px;
+    border-radius:100px ;
+    color: #1e3932;
+    cursor: pointer;
+
+}
+.hero3-txt .bb:hover{
+    background-color: rgba(30,57,50,.1);
+    transition: 0.3s all ease;
+}
+
+/* =====================================HERO4 SECTION========================================================== */
+#hero4{
+    background-color:#006241 ;
+    margin: 30px 0;
+    display: flex;
+    height: inherit;
+}
+
+.hero4img{
+    width: 50%;
+}
+.hero4img img{
+    width: 100%;
+}
+
+.hero4-txt {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color:white;
+}
+
+.hero4-txt h1{
+    font-weight: 500;
+    font-size: 40px;
+    letter-spacing: 3px;
+    text-align: center;
+    margin:10px 108px 30px 108px;
+    line-height: 50px;   
+}
+    
+.hero4-txt p{
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+    margin: 0 100px;
+    margin-bottom: 36px;
+    line-height:34px;
+
+}
+
+.hero4-txt .bb{
+    font-size: 18px;
+    font-weight: 700;
+    padding: 4px 17px;
+    color: white;
+    border-radius:110px ;
+    border-color: white;
+    cursor: pointer;
+    
+}
+
+.hero4-txt .bb:hover{
+    background-color: hsla(0,0%,100%,.12);
+    transition: 0.3s all ease;
+}
+/* =====================================HERO5 SECTION========================================================== */
+#hero5{
+    background-color:#006241 ;
+    margin: 30px 0;
+    display: flex;
+    height: inherit;
+}
+
+.hero5img{
+    width: 50%;
+}
+.hero5img img{
+    width: 100%;
+}
+
+.hero5-txt {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color:white;
+}
+
+.hero5-txt h1{
+    font-weight: 600;
+    font-size: 24x;
+    letter-spacing: 0px;
+    text-align: center;
+    margin:10px 108px 25px 108px;
+    line-height: 33px;   
+}
+    
+.hero5-txt p{
+    font-size: 19px;
+    font-weight: 500;
+    text-align: center;
+    margin: 0 100px;
+    margin-bottom: 30px;
+    line-height:35px;
+
+}
+
+.hero5-txt .bb{
+    font-size: 16px;
+    font-weight: 700;
+    padding: 5px 20px;
+    color: white;
+    border-radius:100px ;
+    border-color: white;
+    cursor: pointer;
+}
+
+.hero5-txt .bb:hover{
+    background-color: hsla(0,0%,100%,.12);
+    transition: 0.3s all ease;
+}
+
+/* =====================================HERO6 SECTION========================================================== */
+
+#hero6{
+    background-color: #d4e9e2;
+    margin: 30px 0;
+    display: flex;
+    height: inherit;
+}
+
+.hero6img{
+    width: 50%;
+}
+.hero6img img{
+    width: 100%;
+}
+
+.hero6-txt {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: #1e3932;
+}
+
+.hero6-txt h1{
+    font-weight: bold;
+    font-size: 25px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin:10px 108px 25px 108px;
+    line-height: 35px;   
+}
+    
+.hero6-txt p{
+    font-size: 19px;
+    font-weight: 500;
+    text-align: center;
+    margin: 0 100px;
+    margin-bottom: 30px;
+    line-height:35px;
+
+}
+
+.hero6-txt .bb{
+    font-size: 16px;
+    font-weight: 700;
+    padding: 5px 20px;
+    color: #1e3932;
+    border-radius:100px;
+    cursor: pointer;
+}
+
+.hero6-txt .bb:hover{
+    background-color: rgba(30,57,50,.1);
+    transition: 0.3s all ease;
+}
+
+/* last seaction */
+.about-us{
+    display: flex;
+    padding-top: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    box-shadow: 0 -1px 3px rgb(0 0 0 / 10%), 0 -2px 2px rgb(0 0 0 / 6%), 0 0 2px rgb(0 0 0 / 7%);
+
+}
+
+.about-us h2{
+    padding-left: 40px;
+    font-size: 19px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    color: rgba(0,0,0,.87);
+}
+.col ul{
+list-style-type: none;
+    
+}
+
+.col ul li{
+    padding-bottom: 20px;
+    padding-right:25px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(0,0,0,.58);
+    cursor: pointer;
+    /* color: ; */
+}
+
+.col ul li:hover{
+    color:rgba(0,0,0,.87);
+}
+
+.links{
+    box-shadow: 0 -1px 3px rgb(0 0 0 / 10%), 0 -2px 2px rgb(0 0 0 / 6%), 0 0 2px rgb(0 0 0 / 7%);
+    padding-left: 30px;
+    position: relative;
+
+}
+
+.privacy{
+    font-size: 16px;
+    font-weight: 500;
+    
+}
+.privacy span{
+    margin: 0 20px;
+}
+.copyright{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 8px;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.58);
+}
+
+.icons svg{
+    /*     top right bottom left */
+    margin: 40px 15px 20px 30px;
+    cursor: pointer;
+}
+
+.intro{
+    position: absolute;
+    bottom: -5px;
+    right: 25px;
+    color:#008248;;
+    cursor: pointer;
+}
+
+
+.introicon{
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    cursor: pointer;
+    
+}
+
+.intro:hover {
+    color: royalblue;
+    transition: 0.3s all ease;
+
+}
