@@ -6,19 +6,21 @@ body{
 }
 
 header{
-    height : 101px;
+    height : 10vh;
     box-shadow: 0 1px 3px rgb(0 0 0 /10%),0 2px 2px rgb(0 0 0 /6%), 0 0 2px rgb(0 0 0 /7%);
 }
 
 .header-container{
         display: flex;
         justify-content: space-between;
-         max-width: 1440px;
+         max-width: 1400px;
          margin: 0 auto;
          height: 100%;
          /* background-color: brown; */
          box-shadow: 0 1px 3px rgb(0 0 0 /10%),0 2px 2px rgb(0 0 0 /6%), 0 0 2px rgb(0 0 0 /7%);
 }
+
+
 
 .logo {
     height:51px;
@@ -27,7 +29,7 @@ header{
 
 .logo img {
     height:100%;
-    margin-left: 25px;
+    margin-left: 5vh;
 }
 
 .left-nav {
@@ -35,7 +37,7 @@ header{
     height: 100%;
     align-items: center;
     /* background-color: aquamarine; */
-    margin-left: 15px;
+    margin-left: 2.5vh;
 }
 
 .left-nav nav ul {
@@ -43,6 +45,15 @@ header{
     margin: 35px;
     padding: 0;
     display: flex;
+}
+
+.left-nav nav ul a{
+    color: #000;
+    text-decoration: none;
+}
+
+.right-nav a{
+    text-decoration: none;
 }
 
 .left-nav nav ul li {
@@ -57,6 +68,7 @@ header{
 .left-nav nav ul li:hover {
     color: #008248;
     transition: 0.3s all ease;
+    scale: 1.1;
 
 }
 
@@ -90,10 +102,12 @@ header{
 .join-now-hov:hover{
     background-color: rgba(31, 30, 30, 0.82);
     transition: 0.3s all ease;
+    scale: 1.1;
 }
 .sign-in-hov:hover{
     background-color: #eef7f4e7;
     transition: 0.3s all ease;
+    scale: 1.1;
 }
 
 .bblack{
@@ -105,14 +119,21 @@ header{
 .find-store{
     margin-right: 30px;
     padding: 10px 18px;
+    color: #000;
 }
 .find-store:hover{
     color: #008248;
+    transition: 0.3s all ease;
+    scale: 1.1;
+
 }
 
 .find-store svg{
     font-size: 20px;
 }
+
+
+
 
 /* =====================================HERO SECTION========================================================== */
 
@@ -174,6 +195,7 @@ header{
     background-color: rgba(30,57,50,.1);
     /* background-color: rgb(206, 216, 216); */
     transition: 0.3s all ease;
+    scale: 1.1;
 }
 
 /* =====================================HERO2 SECTION========================================================== */
@@ -233,6 +255,7 @@ header{
 .hero-2text .bb:hover{
     background-color: hsla(0,0%,100%,.12);
     transition: 0.3s all ease;
+    scale: 1.1;
 }
 
 
@@ -292,6 +315,8 @@ header{
 .hero3-txt .bb:hover{
     background-color: rgba(30,57,50,.1);
     transition: 0.3s all ease;
+    scale: 1.1;
+
 }
 
 /* =====================================HERO4 SECTION========================================================== */
@@ -351,6 +376,7 @@ header{
 .hero4-txt .bb:hover{
     background-color: hsla(0,0%,100%,.12);
     transition: 0.3s all ease;
+    scale: 1.1;
 }
 /* =====================================HERO5 SECTION========================================================== */
 #hero5{
@@ -408,7 +434,9 @@ header{
 .hero5-txt .bb:hover{
     background-color: hsla(0,0%,100%,.12);
     transition: 0.3s all ease;
+    scale: 1.1;
 }
+
 
 /* =====================================HERO6 SECTION========================================================== */
 
@@ -466,9 +494,15 @@ header{
 .hero6-txt .bb:hover{
     background-color: rgba(30,57,50,.1);
     transition: 0.3s all ease;
+    scale: 1.1;
 }
 
-/* last seaction */
+.ancher a{
+    color: #000;
+    text-decoration: none;
+}
+
+/******************** last seaction ****************************/
 .about-us{
     display: flex;
     padding-top: 30px;
@@ -503,6 +537,7 @@ list-style-type: none;
 
 .col ul li:hover{
     color:rgba(0,0,0,.87);
+    scale: 1.08;
 }
 
 .links{
@@ -542,6 +577,9 @@ list-style-type: none;
     cursor: pointer;
 }
 
+insta{
+    color: aquamarine;
+}
 
 .introicon{
     position: absolute;
@@ -549,6 +587,10 @@ list-style-type: none;
     right: 50px;
     cursor: pointer;
     
+}
+.icons svg:hover{
+    color: #008248;
+    scale: 1.2;
 }
 
 .intro:hover {
